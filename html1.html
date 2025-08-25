@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Name - Portfolio & Timetable</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f7f7fa;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      color: #333;
+    }
+
+    header, footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 1rem 0;
+    }
+
+    header h1 {
+      margin: 0;
+    }
+
+    main {
+      max-width: 1000px;
+      margin: auto;
+      padding: 2rem;
+    }
+
+    section {
+      margin-bottom: 2.5rem;
+    }
+
+    h2 {
+      color: #444;
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 0.3rem;
+      margin-bottom: 1rem;
+    }
+
+    /* Profile */
+    figure {
+      text-align: center;
+    }
+    figure img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid #444;
+    }
+    figcaption {
+      margin-top: 0.5rem;
+      font-style: italic;
+      color: #555;
+    }
+    ul {
+      list-style-type: square;
+      margin-left: 1.5rem;
+    }
+
+    footer a {
+      color: #4da3ff;
+      text-decoration: none;
+    }
+    footer a:hover {
+      text-decoration: underline;
+    }
+
+    /* Timetable */
+    h1.page-title {
+      text-align: center;
+      color: #333;
+      margin-bottom: 30px;
+    }
+    table {
+      margin: 0 auto;
+      border-collapse: collapse;
+      width: 100%;
+      background: #fff;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+    }
+    th, td {
+      padding: 12px 8px;
+      text-align: center;
+      border: 1px solid #ccc;
+    }
+    thead th {
+      background: #4a90e2;
+      color: #fff;
+    }
+    tbody th {
+      background: #eaf4fb;
+      color: #333;
+    }
+    tbody td {
+      background: #f5faff;
+    }
+    tfoot td {
+      background: #f0f0f0;
+      font-size: 0.95em;
+      color: #666;
+    }
+    tr:nth-child(even) td {
+      background: #e9f2fb;
+    }
+    td.break {
+      background: #ffe5b4;
+      font-weight: bold;
+    }
+    td.lab {
+      background: #d1ffd6;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Portfolio Section -->
+  <header>
+    <h1>Raghavendra Pandey</h1>
+    <p>Aspiring Front-End Developer</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Profile</h2>
+      <figure>
+        <img src="photo.png" alt="venom">
+        <figcaption>Raghavendra Pandey</figcaption>
+      </figure>
+      <p>Hi, I am a student of CS with specialization in AI, ML...</p>
+    </section>
+
+    <section>
+      <h2>Education</h2>
+      <ul>
+        <li>B.Tech / GLA / 3rd</li>
+        <li>Currently in 5th semester</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+      </ul>
+    </section>
+
+    <!-- Academic Timetable Section -->
+    <section>
+      <h2>Academic Timetable</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Day</th>
+            <th>9-10 AM</th>
+            <th>10-11 AM</th>
+            <th>11-12 PM</th>
+            <th>12-1 PM</th>
+            <th>2-3 PM</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>Monday</th>
+            <td>Mathematics</td>
+            <td>Physics</td>
+            <td>Chemistry</td>
+            <td class="break">Break</td>
+            <td class="lab">Physics Lab</td>
+          </tr>
+          <tr>
+            <th>Tuesday</th>
+            <td>English</td>
+            <td>Mathematics</td>
+            <td>Computer Science</td>
+            <td class="break">Break</td>
+            <td>Sports</td>
+          </tr>
+          <tr>
+            <th>Wednesday</th>
+            <td>Chemistry</td>
+            <td>English</td>
+            <td>Mathematics</td>
+            <td class="break">Break</td>
+            <td class="lab">Chemistry Lab</td>
+          </tr>
+          <tr>
+            <th>Thursday</th>
+            <td>Computer Science</td>
+            <td>Physics</td>
+            <td>English</td>
+            <td class="break">Break</td>
+            <td>Library</td>
+          </tr>
+          <tr>
+            <th>Friday</th>
+            <td>Mathematics</td>
+            <td>Chemistry</td>
+            <td>Computer Science</td>
+            <td class="break">Break</td>
+            <td class="lab">Computer Lab</td>
+          </tr>
+          <tr>
+            <th>Saturday</th>
+            <td>English</td>
+            <td>Sports</td>
+            <td>Mathematics</td>
+            <td class="break">Break</td>
+            <td>Club Activities</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="6">Note: Labs are on alternate weeks, lunch break is 1-2 PM</td>
+          </tr>
+        </tfoot>
+      </table>
+    </section>
+  </main>
+
+  <footer>
+    <h2>Contact</h2>
+    <p>Email: <a href="raghavendrapandey909@gmail.com">your@email.com</a></p>
+    <p>GitHub: <a href="https://github.com/">https://github.com/</a></p>
+  </footer>
+
+</body>
+</html>
